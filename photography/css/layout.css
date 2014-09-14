@@ -144,6 +144,11 @@
 
     /* #.Navigation
     ================================================== */
+    .navigation .list ul {
+      margin-bottom: 0px !important;
+      padding-top: 30px;
+    }
+
     .navigation {
       left: 0px;
     }
