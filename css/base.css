@@ -210,12 +210,15 @@ a{
     display: inline-block;
     font-family: "Montserrat";
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: 1.5px;
     min-width: 200px;
     outline:none;
     padding: 13px 48px;
     text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%
     -webkit-transition: all .2s ease 0;
     -moz-transition: all .2s ease 0;
     -ms-transition: all .2s ease 0;
@@ -247,6 +250,8 @@ a{
     border: 2px solid #BCAA55;
     color: #ffffff;
   }
+
+
 
   .button:active,
   button:active,
