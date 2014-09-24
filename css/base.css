@@ -80,8 +80,16 @@
 
 /* #Typography
 ================================================== */
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h5, h6 {
     color: #000000;
+  }
+
+  h4 {
+    color: #BCAA55;
+  }
+
+  b {
+    font-weight: 700;
   }
 
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -93,7 +101,11 @@
   h6 { font-size: 13px; line-height: 20px; }
   .sub.header { color: #777; }
 
-  p { margin: 0 0 20px 0; }
+  p {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    margin: 0 0 20px 0;
+  }
   p img { margin: 0; }
   p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
@@ -134,12 +146,17 @@
 
 /* #Links
 ================================================== */
+a{
+  text-decoration: none;
+  color: #BCAA55;
+}
   a:visited {
-    color: #000000;
+    color: #BCAA55;
+    text-decoration: none;
   }
 
   a:hover, a:focus {
-    color: #a2a2a2;
+    color: #9a8629;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
@@ -165,7 +182,7 @@
   ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
   ul ul li, ul ol li,
   ol ol li, ol ul li { margin-bottom: 6px; }
-  li { line-height: 18px; margin-bottom: 12px; }
+  li {font-size:12px; text-transform:uppercase;line-height: 18px; margin-bottom: 12px; }
   ul.large li { line-height: 21px; }
   li p { line-height: 21px; }
 

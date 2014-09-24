@@ -18,8 +18,16 @@
 /* #Page Styles
 ================================================== */
 
+
+
 /* #Media Queries
 ================================================== */
+
+  @media (min-width:767px) {
+    .mobile-header {
+      display: none;
+    }
+  }
 
   @media only screen and (min-width: 1000px) and (max-width: 1024px) {
 
@@ -111,10 +119,43 @@
       left: 10px;
     }
 
+
+    footer {
+    padding: 60px 15px 0px;
+    text-align: center;
+  }
+
+  .footer-content {
+    color: #a2a2a2;
+    font-size: 12px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  footer a{
+    color: #000000;
+    text-decoration: none;
+  }
+
+  footer img{
+    text-align: center;
+  }
+
+
     /* #.Navigation
     ================================================== */
+    nav.navigation{
+      width: 290px !important;
+    }
+
+    .navigation .list ul {
+      margin-bottom: 0px !important;
+      padding-top: 60px;
+    }
+
     .navigation {
       left: 0px;
+      margin-left:320px;
     }
 
     .navigation .container {
@@ -125,15 +166,19 @@
       left: 30px;
       right: 30px;
       top: 30px;
+      color: #000000;
     }
 
     .navigation .control {
-      background-color: #000000;
-      background-image: url(../img/navigation-menu-light.png);
-      background-position: right 10px center;
+      color: #000000;
+      background-image: url(../img/navigation-menu-dark-mobile.png);
+      background-position: right 15px center;
       height: 60px;
       padding: 20px 10px;
       text-indent: 0px;
+      background-color: rgba(255, 255, 255, 0.95);
+      margin-left: -320px;
+      box-shadow: 0px 0px 10px #888888;
     }
 
     .navigation .socials {
@@ -144,6 +189,10 @@
 
     .navigation .social li {
       margin: 0px 15px;
+    }
+
+    .vertical-center {
+      margin-top: 200px;
     }
 
     /* #.Home
@@ -159,20 +208,20 @@
 
     .home .title {
       text-align: center;
-      font-size: 32px;
-      letter-spacing: 1px;
+      font-size: 54px;
+      letter-spacing: 5px;
       line-height: 44px;
       margin-right: -5px;
     }
 
     .home .lockup {
       text-align: center;
-      padding-bottom: 40px;
+      padding-bottom: 60px;
     }
 
     .home .slogan {
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
 
     .home .slogan .before, .home .slogan .after {
@@ -189,13 +238,16 @@
     }
 
     .home .discover {
-      color: #ffffff;
       text-align: center;
       bottom: 40px;
     }
 
     .home .flex-control-nav, .home .flex-direction-nav {
       display: none;
+    }
+
+    .offset {
+      padding: 80px 0px;
     }
 
     /* #.Work
@@ -244,8 +296,18 @@
 
     .album header {
       text-align: center;
-      /*margin: 40px auto 20px;
+      font-size: 24px;
+      line-height: 30px;
+      margin: 0px;
 */    }
+
+    .mobile-header {
+      text-align: center;
+      text-align: center;
+      padding-bottom: 20px;
+      font-size: 10px;
+      letter-spacing: 2px;
+    }
 
     /* #.Blog
     ================================================== */

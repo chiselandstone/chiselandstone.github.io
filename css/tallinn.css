@@ -23,6 +23,14 @@
   #Footer
   #Not Found */
 
+
+
+ #map_canvas {
+    width: 100%;
+    height: 400px;
+    background-color: #CCC;
+  }
+
 /* #.Navigation
 ================================================== */
 
@@ -131,23 +139,23 @@
   }
 
   .navigation .social .facebook {
-    background-image: url(../img/social/facebook.png);
+    background-image: url(../img/facebook.png);
   }
 
   .navigation .social .twitter {
-    background-image: url(../img/social/twitter.png);
+    background-image: url(../img/twitter.png);
   }
 
   .navigation .social .youtube {
-    background-image: url(../img/social/youtube.png);
+    background-image: url(../img/youtube.png);
   }
 
   .navigation .social .googleplus {
-    background-image: url(../img/social/googleplus.png);
+    background-image: url(../img/googleplus.png);
   }
 
   .navigation .social .instagram {
-    background-image: url(../img/social/instagram.png);
+    background-image: url(../img/instagram.png);
   }
 
 
@@ -174,6 +182,8 @@ img.bg {
 
 /* #Home
 ================================================== */
+
+
 
   .home {
     position: relative;
@@ -278,7 +288,6 @@ img.bg {
   }
 
   .home .discover {
-    color: #ffffff;
     text-align: center;
     bottom: 60px;
     left: 0px;
