@@ -70,6 +70,17 @@
 
     /* #.Basic
     ================================================== */
+
+
+
+    ul {
+      padding-bottom: 40px;
+    }
+
+    .entry-content img{
+      width: 100%;
+    }
+
     .page {
       overflow: hidden;
     }
