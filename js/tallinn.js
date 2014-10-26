@@ -6,6 +6,11 @@
 jQuery(document).ready(function($) {
    'use strict';
 
+    $('.menu-toggle').click(function() {
+      $('.menu').toggleClass('open');
+      $(this).toggleClass('open');
+    });
+
     //Vars
   var windowHeight = $(window).height();
   var windowWidth = $(window).width();
