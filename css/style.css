@@ -94,6 +94,7 @@ header {
 
 .logo a {
     font-family: 'proxima-nova', sans-serif;
+    font-weight: 400;
     color: #555;
     text-transform: uppercase;
     letter-spacing: .25rem;
