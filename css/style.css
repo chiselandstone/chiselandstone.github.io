@@ -41,7 +41,7 @@ html {
 
 body {
     background: white;
-    font-family: 'Sentinel A', 'Sentinel B';
+    font-family: "freight-display-pro",sans-serif;
     font-style: normal;
     font-weight: 400;
     margin: 0 auto;
@@ -93,7 +93,7 @@ header {
 }
 
 .logo a {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'proxima-nova', sans-serif;
     color: #555;
     text-transform: uppercase;
     letter-spacing: .25rem;
