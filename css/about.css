@@ -19,6 +19,17 @@ header {
     About
 -----------------------------*/
 
+h1,
+h2,
+h3, {
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    margin-bottom: 2rem;
+}
+}
+
 .about-wrap {
     background: #F5F5F5;
     position: relative;
@@ -30,20 +41,6 @@ header {
     width: 100%;
     margin-bottom: 2rem;
     border-radius: 50%;
-}
-
-.about-wrap h1,
-.about-wrap h2 {
-    font-size: 1rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: .25rem;
-    margin-bottom: 2rem;
-}
-
-.about-wrap h2 {
-    border-bottom: 1px solid #CCC;
-    padding-bottom: 2rem;
 }
 
 .about-wrap p {
