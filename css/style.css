@@ -22,7 +22,8 @@
     Base
 -----------------------------*/
 
-h1 {
+h1,
+h3 {
     font-family: 'proxima-nova', sans-serif;
 }
 
