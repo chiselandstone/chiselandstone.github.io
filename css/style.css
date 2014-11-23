@@ -54,10 +54,11 @@ body {
 footer {
     font-family: "brandon-grotesque",sans-serif;
     margin: auto;
-    line-height: 1.5em;
+    line-height: 2em;
     text-align: center;
     padding-bottom: 1em;
     padding-top: .5em;
+    letter-spacing: .1em;
 }
 
 
