@@ -135,6 +135,10 @@ a:hover,
   fill: #BBA95B;
 }
 
+a:active {
+    font-weight: 700;
+}
+
 nav a.current {
     color: #555;
     pointer-events: none;
