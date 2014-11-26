@@ -103,8 +103,7 @@ footer img{
     border-radius: 50%;
 }
 
-  .button,
-  button {
+  .button-book {
     background: transparent;
     border: 2px solid #BCAA55;
     color: #BCAA55;
@@ -129,8 +128,7 @@ footer img{
   }
 
 
-.button:hover,
-  button:hover {
+.button-book:hover {
     background-color: #BCAA55;
     border: 2px solid #BCAA55;
     color: #ffffff;
@@ -138,8 +136,7 @@ footer img{
 
 
 
-  .button:active,
-  button:active {
+  .button-book:active {
    background: transparent;
     border: 2px solid #BCAA55;
     color: #BCAA55;
