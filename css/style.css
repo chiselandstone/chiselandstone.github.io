@@ -103,6 +103,11 @@ footer img{
     border-radius: 50%;
 }
 
+.entry-content {
+    width: 80%;
+}
+
+
   .button-book {
     background: transparent;
     border: 2px solid #BCAA55;
