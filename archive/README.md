@@ -1,2 +1,0 @@
-chiselandstone.github.io
-========================
