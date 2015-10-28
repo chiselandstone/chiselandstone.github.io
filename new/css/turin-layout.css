@@ -1094,6 +1094,7 @@
 		width: 100%;
 	}
 
+
 	section.blog article.post .entry-header .entry-title {
 		cursor: pointer;
     	letter-spacing: 0.1em;
@@ -1197,6 +1198,14 @@
 
 	section.article article.post .entry-content p {
 		margin-bottom: 35px;
+	}
+
+
+	.inline-photo {
+
+		margin-left: -100%;
+		margin-bottom: 40px;
+
 	}
 
 
